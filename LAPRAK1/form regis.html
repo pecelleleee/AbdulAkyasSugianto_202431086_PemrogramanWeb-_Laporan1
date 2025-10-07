@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1> Registrasi Akun </h1>
+    <fieldset>Formulir Registrasi <br><br>
+        
+    <form action="">
+        
+        <label for="Nama">NAMA :</label>
+        <input required type="text" name="nama" id="nama" placeholder="Masukkan nama anda">
+        <br><br>
+        
+        
+        <label for="nim">NIM :</label>
+        <input required type="number" name="nim" id="nim" placeholder="masukkan nim"  pattern="[0-9]{9}" title="Masukkan NIM 9 digit">
+        <br><br>
+        
+        
+        <label for="email">Email :</label>
+        <input required type="email" name="email" id="email" placeholder="email anda">
+        <br><br>
+       
+        <label for="Jenis Kelamin">Jenis kelamin</label><br><br>
+        <input required type="radio" name="jk" id="Laki-laki" value="Laki-laki"><label for="Laki-laki">Laki-laki </label>
+        <input required type="radio" name="jk" id="Perempuan" value="Perempuan"><label for="wanita">Perempuan</label>
+        <br><br> 
+        
+
+        <label for="agama">Agama</label>
+        <select required id="agama" name="agama">
+        <option value="islam">islam</option>
+        <option value="kristen">kristen</option>
+        <option value="katolik">Katolik</option>
+        <option value="hindu">Hindu</option>
+        </select><br><br>
+       
+
+        <label for="masukkan pass">Masukkan Password :</label>
+        <input type="password" name="password" id="password" title="Masukkan Password anda">
+        <br><br>
+
+        <label for="konfirmasi pass">konfirmasi Password :</label>
+        <input type="password" name="password" id="password" title="konfirmasi Password anda">
+        <br><br>
+
+        <input type="submit" value="Daftar" >
+
+
+
+    </fieldset>
+    </form>
+</body>
+</html>
